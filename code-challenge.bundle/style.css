@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.movie-details, .movie-menu {
+    width: 45%;
+}
+
+.movie-details {
+    text-align: center;
+}
+
+.movie-menu {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.sold-out {
+    color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: blue;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
